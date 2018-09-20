@@ -31,7 +31,7 @@ namespace WorkJournal
                 }
                 catch (Exception)
                 {
-                    //we could log this in a real-world situation
+                    //you could log exceptions here
                 }
             }
 
@@ -39,7 +39,7 @@ namespace WorkJournal
 
 
 
-            //BuildWebHost(args).Run();
+            
 
         }
 

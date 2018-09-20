@@ -59,12 +59,12 @@ using WorkJournal.ViewModel;
             WriteLiteral("\r\n\r\n<h2 class=\"codesmart-Header well\">CodeSmart</h2>\r\n<h1 class=\"jumbotron text-center title page-header\">Journal Entry</h1>\r\n\r\n");
             EndContext();
             BeginContext(149, 761, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a78a99f065d7443983683b0fe9048624", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "acff77f782c94b7c9545df00b519e58e", async() => {
                 BeginContext(224, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(230, 47, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "768e7374acdc48aaae476069f9f5841c", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b7c4b0e30c34cbc939ed76689162d9c", async() => {
                     BeginContext(257, 12, true);
                     WriteLiteral("Main Tasks: ");
                     EndContext();
@@ -90,7 +90,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n    [Required]\r\n    <input name=\"MainTasks\" placeholder=\"What are you going to do today?\" />\r\n\r\n    ");
                 EndContext();
                 BeginContext(379, 53, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "49e7132b54c34c70874bad0ea57c58bc", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "00cb2799d6684b4280b8d1763f508f8c", async() => {
                     BeginContext(411, 13, true);
                     WriteLiteral("Other Tasks: ");
                     EndContext();
@@ -116,7 +116,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n    <input name=\"InterruptTasks\" placeholder=\"secondary tasks go here\" />\r\n\r\n    ");
                 EndContext();
                 BeginContext(515, 38, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ce6f8e13b2d04378984bd68ac9a9630c", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b62aaa38382c45e893478c92a532d360", async() => {
                     BeginContext(538, 7, true);
                     WriteLiteral("Notes: ");
                     EndContext();
@@ -142,7 +142,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n    <input type=\"text\" name=\"Notes\" placeholder=\" Your notes go here\" />\r\n\r\n    ");
                 EndContext();
                 BeginContext(635, 55, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21c21f1ad7f04a7db890121ea9ab8f95", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d8c8879454a840758cf2d050ec653a43", async() => {
                     BeginContext(671, 11, true);
                     WriteLiteral("Questions: ");
                     EndContext();

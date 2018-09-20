@@ -13,7 +13,7 @@
 @foreach (var entry in Model.Entries)
 {
     <ul class="list-group">
-        <li class="list-group-item bg-Main">Tasks for @entry.Date.ToString("dddd, MMMM dd yyyy")  </li>
+        <li class="list-group-item bg-Main">Tasks for @entry.Date.ToString("dddd, MMMM dd yyyy")   </li>
         <li class="list-group-item">@entry.MainTasks  </li>
         <li class="list-group-item sub-List">@entry.InterruptTasks  </li>
         <li class="list-group-item sub-List"><b>Note: </b>@entry.Notes  </li>

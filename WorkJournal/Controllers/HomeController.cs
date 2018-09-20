@@ -46,7 +46,7 @@ namespace WorkJournal.Controllers
         public IActionResult Entry(JournalEntry journalEntry)
         {
             _journalEntryRepository.AddEntry(journalEntry);
-            return View();
+            return RedirectToAction("Index");
         }
     }
 }
