@@ -1,0 +1,34 @@
+﻿body {
+    font: 20px "Quicksand", sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+.body-content 
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bg-Main {
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+
+.title {
+    color: cadetblue;
+}
+
+.sub-List
+{
+    font-size: 12px;
+}
+
+.codesmart-Header {
+    font-weight: bold;
+    color: cadetblue;
+    text-align: center;
+    width: 200px;
+    background-color: white;
+}

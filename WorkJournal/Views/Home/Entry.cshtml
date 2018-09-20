@@ -1,0 +1,25 @@
+﻿@model JournalEntry
+
+
+<h2 class="codesmart-Header well">CodeSmart</h2>
+<h1 class="jumbotron text-center title page-header">Journal Entry</h1>
+
+<form asp-action="Entry" method="post" class="form-horizontal" role="form">
+    <label asp-for="MainTasks">Main Tasks: </label>
+    [Required]
+    <input name="MainTasks" placeholder="What are you going to do today?" />
+
+    <label asp-for="InterruptTasks">Other Tasks: </label>
+    <input name="InterruptTasks" placeholder="secondary tasks go here" />
+
+    <label asp-for="Notes">Notes: </label>
+    <input type="text" name="Notes" placeholder=" Your notes go here" />
+
+    <label asp-for="QuestionsForMentor">Questions: </label>
+    <input type="text" name="QuestionForMentor" placeholder=" Questions for your mentor?" />
+
+
+    <input name="Submit" type="submit" onclick="alert('Your entry has been submitted')" value="Submit Entry" />
+</form>
+
+

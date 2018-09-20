@@ -1,0 +1,24 @@
+﻿@model HomeViewModel
+
+
+
+
+
+<h2 class="codesmart-Header well">CodeSmart</h2>
+<h1 class="jumbotron text-center title page-header">@Model.Title</h1>
+
+<a asp-controller="Home" asp-action="Entry">
+    <input type="button" name="Submit" value="New Log" />
+</a>
+@foreach (var entry in Model.Entries)
+{
+    <ul class="list-group">
+        <li class="list-group-item bg-Main">Tasks for @entry.Date.ToString("dddd, MMMM dd yyyy")  </li>
+        <li class="list-group-item">@entry.MainTasks  </li>
+        <li class="list-group-item sub-List">@entry.InterruptTasks  </li>
+        <li class="list-group-item sub-List"><b>Note: </b>@entry.Notes  </li>
+        <li class="list-group-item sub-List"><b>Question: </b>@entry.QuestionsForMentor  </li>
+    </ul>
+
+
+}
