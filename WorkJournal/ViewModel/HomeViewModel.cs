@@ -9,8 +9,6 @@ namespace WorkJournal.ViewModel
     public class HomeViewModel
     {
         public string Title { get; set; }
-        
-        
         public List<JournalEntry> Entries { get; set; }
       
     }

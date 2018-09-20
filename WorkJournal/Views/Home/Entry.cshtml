@@ -5,18 +5,28 @@
 <h1 class="jumbotron text-center title page-header">Journal Entry</h1>
 
 <form asp-action="Entry" method="post" class="form-horizontal" role="form">
-    <label asp-for="MainTasks">Main Tasks: </label>
-    [Required]
-    <input name="MainTasks" placeholder="What are you going to do today?" />
+   <input type="datetime" name="Date" />
 
-    <label asp-for="InterruptTasks">Other Tasks: </label>
-    <input name="InterruptTasks" placeholder="secondary tasks go here" />
-
-    <label asp-for="Notes">Notes: </label>
-    <input type="text" name="Notes" placeholder=" Your notes go here" />
-
-    <label asp-for="QuestionsForMentor">Questions: </label>
-    <input type="text" name="QuestionForMentor" placeholder=" Questions for your mentor?" />
+    <div class="list-group">
+        <label asp-for="MainTasks">Main Tasks: </label>
+         <input name="MainTasks" placeholder="What are you going to do today?" />
+    </div>
+  
+    <div class="list-group">
+        <label asp-for="InterruptTasks">Other Tasks: </label>
+        <input name="InterruptTasks" placeholder="secondary tasks go here" />
+    </div>
+  
+    <div class="list-group">
+        <label asp-for="Notes">Notes: </label>
+        <input type="text" name="Notes" placeholder=" Your notes go here" />
+    </div>
+   
+    <div class="list-group">
+        <label asp-for="QuestionsForMentor">Questions: </label>
+        <input type="text" name="QuestionForMentor" placeholder=" Questions for your mentor?" />
+    </div>
+    
 
 
     <input name="Submit" type="submit" onclick="alert('Your entry has been submitted')" value="Submit Entry" />

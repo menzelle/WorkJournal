@@ -25,7 +25,7 @@ namespace WorkJournal.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            var entries = _journalEntryRepository.GetAllEntries().OrderBy(e => e.MainTasks);
+            var entries = _journalEntryRepository.GetAllEntries().OrderBy(e => e.JournalEntryId);
             var homeViewModel = new HomeViewModel()
             {
                 Title = "Menzelle's Daily Work Journal",
